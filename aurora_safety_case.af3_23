@@ -1,0 +1,702 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org-fortiss-af3-project:FileProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org-fortiss-af3-expression="http://www.fortiss.org/af3/expression" xmlns:org-fortiss-af3-project="http://www.fortiss.org/af3/project" xmlns:org-fortiss-af3-project-configuration="http://www.fortiss.org/af3/project/configuration" xmlns:org-fortiss-af3-safety-argumentation-package="http://www.fortiss.org/af3/safetyargumentationpackage" xmlns:org-fortiss-af3-safetycases="http://www.fortiss.org/af3/safetycases" xmlns:org-fortiss-tooling-base-model-layout="http://www.fortiss.org/tooling/base/model/layout" xmi:id="62" id="62" name="aurora_safety_case" comment="This project contains an incomplete model of the published Aurora safety case" af3Version="2.17.0.qualifier">
+  <rootElements xsi:type="org-fortiss-af3-project:ProjectConfiguration" xmi:id="1" id="1">
+    <configurationElements xsi:type="org-fortiss-af3-project-configuration:TypeSystemConfiguration" xmi:id="2" id="2">
+      <typesystem xsi:type="org-fortiss-af3-expression:MicroTypeSystem"/>
+    </configurationElements>
+  </rootElements>
+  <rootElements xsi:type="org-fortiss-af3-safety-argumentation-package:SafetyArgumentationPackage" xmi:id="3" id="3" name="Assurance Package" comment="">
+    <containedElements xsi:type="org-fortiss-af3-safetycases:SafetyCase" xmi:id="4" id="4" name="Aurora Safety Case" comment="The argumentation structure was taken from here: https://safetycaseframework.aurora.tech/gsn, accessed in December 2021">
+      <containedElements xsi:type="org-fortiss-af3-safetycases:ArgumentModule" xmi:id="5" id="5" name="High-level Argumentation" comment="" gsnID="1">
+        <containedElements xsi:type="org-fortiss-af3-safetycases:Goal" xmi:id="6" id="6" name="G1" comment="" gsnID="11" textualInformation="Our Self-Driving Vehicles are acceptably safe to operate on public roads" toBeInstantiated="false" toBeDeveloped="false">
+          <connectors xsi:type="org-fortiss-af3-safetycases:ExitConnector" xmi:id="18" id="18" name="exitConnector" comment="" outgoing="20">
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="108" height="72"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="cpos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="cdim" width="0" height="0"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:OffsetOrientation" key="coffsetorient" offset="204" orientation="SOUTH"/>
+          </connectors>
+          <connectors xsi:type="org-fortiss-af3-safetycases:ExitConnector" xmi:id="22" id="22" name="exitConnector" comment="" outgoing="23">
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="108" height="72"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="cpos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="cdim" width="0" height="0"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:OffsetOrientation" key="coffsetorient" offset="204" orientation="SOUTH"/>
+          </connectors>
+          <connectors xsi:type="org-fortiss-af3-safetycases:ExitConnector" xmi:id="26" id="26" name="exitConnector" comment="" outgoing="27">
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="108" height="72"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="cpos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="cdim" width="0" height="0"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:OffsetOrientation" key="coffsetorient" offset="204" orientation="SOUTH"/>
+          </connectors>
+          <connectors xsi:type="org-fortiss-af3-safetycases:ExitConnector" xmi:id="30" id="30" name="exitConnector" comment="" outgoing="34">
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="108" height="72"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="cpos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="cdim" width="0" height="0"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:OffsetOrientation" key="coffsetorient" offset="204" orientation="SOUTH"/>
+          </connectors>
+          <connectors xsi:type="org-fortiss-af3-safetycases:ExitConnector" xmi:id="32" id="32" name="exitConnector" comment="" outgoing="35">
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="108" height="72"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="cpos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="cdim" width="0" height="0"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:OffsetOrientation" key="coffsetorient" offset="204" orientation="SOUTH"/>
+          </connectors>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos" x="288" y="36"/>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="456" height="132"/>
+        </containedElements>
+        <containedElements xsi:type="org-fortiss-af3-safetycases:AwayGoal" xmi:id="7" id="7" name="Away Goal - Proficiency" comment="" gsnID="12" textualInformation="The Self-Driving Vehicle is acceptably safe during nominal operation" toBeInstantiated="false" pointsTo="17">
+          <connectors xsi:type="org-fortiss-af3-safetycases:EntryConnector" xmi:id="19" id="19" name="entryConnector" comment="" incoming="20">
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="108" height="72"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="cpos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="cdim" width="0" height="0"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:OffsetOrientation" key="coffsetorient" offset="96"/>
+          </connectors>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos" x="12" y="216"/>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="204" height="180"/>
+        </containedElements>
+        <containedElements xsi:type="org-fortiss-af3-safetycases:AwayGoal" xmi:id="8" id="8" name="Away Goal - Fail-Safe" comment="" textualInformation="The Self-Driving Vehicle is acceptably safe in presence of faults and failures" toBeInstantiated="false" pointsTo="24">
+          <connectors xsi:type="org-fortiss-af3-safetycases:EntryConnector" xmi:id="21" id="21" name="entryConnector" comment="" incoming="23">
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="108" height="72"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="cpos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="cdim" width="0" height="0"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:OffsetOrientation" key="coffsetorient" offset="84"/>
+          </connectors>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos" x="216" y="216"/>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="192" height="180"/>
+        </containedElements>
+        <containedElements xsi:type="org-fortiss-af3-safetycases:AwayGoal" xmi:id="9" id="9" name="Away Goal - Continuously Improving" comment="" textualInformation="Any anomaly that could affect the safety of the Self-Driving Vehicle  &#xD;&#xA;is identified, evaluated, and resolved with appropriate corrective and preventive actions" toBeInstantiated="false" pointsTo="28">
+          <connectors xsi:type="org-fortiss-af3-safetycases:EntryConnector" xmi:id="25" id="25" name="entryConnector" comment="" incoming="27">
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="108" height="72"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="cpos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="cdim" width="0" height="0"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:OffsetOrientation" key="coffsetorient" offset="84"/>
+          </connectors>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos" x="408" y="216"/>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="252" height="180"/>
+        </containedElements>
+        <containedElements xsi:type="org-fortiss-af3-safetycases:AwayGoal" xmi:id="10" id="10" name="Away Goal - Resilient" comment="" textualInformation="The Self-Driving Vehicle is acceptably safe &#xD;&#xA;in case of reasonably forseeable misues and unavoidable events" toBeInstantiated="false" pointsTo="29">
+          <connectors xsi:type="org-fortiss-af3-safetycases:EntryConnector" xmi:id="31" id="31" name="entryConnector" comment="" incoming="34">
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="108" height="72"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="cpos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="cdim" width="0" height="0"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:OffsetOrientation" key="coffsetorient" offset="96"/>
+          </connectors>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos" x="660" y="216"/>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="204" height="180"/>
+        </containedElements>
+        <containedElements xsi:type="org-fortiss-af3-safetycases:AwayGoal" xmi:id="11" id="11" name="Away Goal - Trustworthy" comment="" gsnID="5" textualInformation="The Self-Driving Enterprise is trustworthy" toBeInstantiated="false" pointsTo="36">
+          <connectors xsi:type="org-fortiss-af3-safetycases:EntryConnector" xmi:id="33" id="33" name="entryConnector" comment="" incoming="35">
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="108" height="72"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="cpos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="cdim" width="0" height="0"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:OffsetOrientation" key="coffsetorient" offset="84"/>
+          </connectors>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos" x="864" y="216"/>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="204" height="180"/>
+        </containedElements>
+        <connections xsi:type="org-fortiss-af3-safetycases:SupportedBy" xmi:id="20" id="20" name="SupportedBy" comment="" source="18" target="19">
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Points" key="points"/>
+        </connections>
+        <connections xsi:type="org-fortiss-af3-safetycases:SupportedBy" xmi:id="23" id="23" name="SupportedBy" comment="" source="22" target="21">
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Points" key="points"/>
+        </connections>
+        <connections xsi:type="org-fortiss-af3-safetycases:SupportedBy" xmi:id="27" id="27" name="SupportedBy" comment="" source="26" target="25">
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Points" key="points"/>
+        </connections>
+        <connections xsi:type="org-fortiss-af3-safetycases:SupportedBy" xmi:id="34" id="34" name="SupportedBy" comment="" source="30" target="31">
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Points" key="points"/>
+        </connections>
+        <connections xsi:type="org-fortiss-af3-safetycases:SupportedBy" xmi:id="35" id="35" name="SupportedBy" comment="" source="32" target="33">
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Points" key="points"/>
+        </connections>
+        <connectors xsi:type="org-fortiss-af3-safetycases:ExitConnector" xmi:id="63" id="63" name="exitConnector" comment="" outgoing="73">
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos"/>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="108" height="72"/>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="cpos"/>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="cdim" width="0" height="0"/>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:OffsetOrientation" key="coffsetorient" offset="96" orientation="SOUTH"/>
+        </connectors>
+        <connectors xsi:type="org-fortiss-af3-safetycases:ExitConnector" xmi:id="64" id="64" name="exitConnector" comment="" outgoing="74">
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos"/>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="108" height="72"/>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="cpos"/>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="cdim" width="0" height="0"/>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:OffsetOrientation" key="coffsetorient" offset="96" orientation="SOUTH"/>
+        </connectors>
+        <connectors xsi:type="org-fortiss-af3-safetycases:ExitConnector" xmi:id="65" id="65" name="exitConnector" comment="" outgoing="75">
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos"/>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="108" height="72"/>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="cpos"/>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="cdim" width="0" height="0"/>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:OffsetOrientation" key="coffsetorient" offset="96" orientation="SOUTH"/>
+        </connectors>
+        <connectors xsi:type="org-fortiss-af3-safetycases:ExitConnector" xmi:id="66" id="66" name="exitConnector" comment="" outgoing="76">
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos"/>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="108" height="72"/>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="cpos"/>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="cdim" width="0" height="0"/>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:OffsetOrientation" key="coffsetorient" offset="96" orientation="SOUTH"/>
+        </connectors>
+        <connectors xsi:type="org-fortiss-af3-safetycases:ExitConnector" xmi:id="67" id="67" name="exitConnector" comment="" outgoing="77">
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos"/>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="108" height="72"/>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="cpos"/>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="cdim" width="0" height="0"/>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:OffsetOrientation" key="coffsetorient" offset="96" orientation="SOUTH"/>
+        </connectors>
+        <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos" x="288" y="84"/>
+        <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="216" height="72"/>
+      </containedElements>
+      <containedElements xsi:type="org-fortiss-af3-safetycases:ArgumentModule" xmi:id="12" id="12" name="Proficiency" comment="" gsnID="2">
+        <containedElements xsi:type="org-fortiss-af3-safetycases:Goal" xmi:id="17" id="17" name="G2.1 Proficiency" comment="" gsnID="21" textualInformation="The Self-Driving Vehicle is acceptably safe during nominal operation" toBeInstantiated="false" toBeDeveloped="false">
+          <connectors xsi:type="org-fortiss-af3-safetycases:ExitConnector" xmi:id="41" id="41" name="exitConnector" comment="" outgoing="48">
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="108" height="72"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="cpos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="cdim" width="0" height="0"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:OffsetOrientation" key="coffsetorient" offset="132" orientation="SOUTH"/>
+          </connectors>
+          <connectors xsi:type="org-fortiss-af3-safetycases:ExitConnector" xmi:id="49" id="49" name="exitConnector" comment="" outgoing="50">
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="108" height="72"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="cpos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="cdim" width="0" height="0"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:OffsetOrientation" key="coffsetorient" offset="132" orientation="SOUTH"/>
+          </connectors>
+          <connectors xsi:type="org-fortiss-af3-safetycases:ExitConnector" xmi:id="51" id="51" name="exitConnector" comment="" outgoing="56">
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="108" height="72"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="cpos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="cdim" width="0" height="0"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:OffsetOrientation" key="coffsetorient" offset="132" orientation="SOUTH"/>
+          </connectors>
+          <connectors xsi:type="org-fortiss-af3-safetycases:ExitConnector" xmi:id="52" id="52" name="exitConnector" comment="" outgoing="55">
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="108" height="72"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="cpos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="cdim" width="0" height="0"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:OffsetOrientation" key="coffsetorient" offset="132" orientation="SOUTH"/>
+          </connectors>
+          <connectors xsi:type="org-fortiss-af3-safetycases:ExitConnector" xmi:id="53" id="53" name="exitConnector" comment="" outgoing="54">
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="108" height="72"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="cpos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="cdim" width="0" height="0"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:OffsetOrientation" key="coffsetorient" offset="132" orientation="SOUTH"/>
+          </connectors>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos" x="324" y="48"/>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="276" height="108"/>
+        </containedElements>
+        <containedElements xsi:type="org-fortiss-af3-safetycases:Goal" xmi:id="37" id="37" name="G1.1" comment="" textualInformation="The Self-Driving Enterprise uses &#xD;&#xA;appropiate development processes for&#xD;&#xA;a complex safety critical system&#xD;&#xA;" toBeInstantiated="false">
+          <connectors xsi:type="org-fortiss-af3-safetycases:EntryConnector" xmi:id="42" id="42" name="entryConnector" comment="" incoming="48">
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="108" height="72"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="cpos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="cdim" width="0" height="0"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:OffsetOrientation" key="coffsetorient" offset="72"/>
+          </connectors>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos" x="24" y="216"/>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="168" height="168"/>
+        </containedElements>
+        <containedElements xsi:type="org-fortiss-af3-safetycases:Goal" xmi:id="38" id="38" name="G1.2" comment="" textualInformation="The design of the Self-Driving Vehicle&#xD;&#xA;is apropriately robust to operate in the defined ODD" toBeInstantiated="false">
+          <connectors xsi:type="org-fortiss-af3-safetycases:EntryConnector" xmi:id="43" id="43" name="entryConnector" comment="" incoming="50">
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="108" height="72"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="cpos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="cdim" width="0" height="0"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:OffsetOrientation" key="coffsetorient" offset="72"/>
+          </connectors>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos" x="192" y="216"/>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="180" height="168"/>
+        </containedElements>
+        <containedElements xsi:type="org-fortiss-af3-safetycases:Goal" xmi:id="39" id="39" name="G1.3" comment="" textualInformation="The Self-Driving Vehicle &#xD;&#xA;is appropriately tested and released for&#xD;&#xA;self-driving operations in accordance with&#xD;&#xA;its operational concept" toBeInstantiated="false">
+          <connectors xsi:type="org-fortiss-af3-safetycases:EntryConnector" xmi:id="44" id="44" name="entryConnector" comment="" incoming="54">
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="108" height="72"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="cpos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="cdim" width="0" height="0"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:OffsetOrientation" key="coffsetorient" offset="84"/>
+          </connectors>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos" x="372" y="216"/>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="204" height="168"/>
+        </containedElements>
+        <containedElements xsi:type="org-fortiss-af3-safetycases:Goal" xmi:id="40" id="40" name="G1.5" comment="" textualInformation="The Self-Driving Vehicle&#xD;&#xA;addresses all applicable &#xD;&#xA;legal requirements and guidance" toBeInstantiated="false">
+          <connectors xsi:type="org-fortiss-af3-safetycases:EntryConnector" xmi:id="45" id="45" name="entryConnector" comment="" incoming="56">
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="108" height="72"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="cpos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="cdim" width="0" height="0"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:OffsetOrientation" key="coffsetorient" offset="84"/>
+          </connectors>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos" x="780" y="216"/>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="204" height="168"/>
+        </containedElements>
+        <containedElements xsi:type="org-fortiss-af3-safetycases:Goal" xmi:id="46" id="46" name="G1.4" comment="" textualInformation="The Self-Driving Vehicle &#xD;&#xA;is operated in accordance &#xD;&#xA;with its operational concept" toBeInstantiated="false">
+          <connectors xsi:type="org-fortiss-af3-safetycases:EntryConnector" xmi:id="47" id="47" name="entryConnector" comment="" incoming="55">
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="108" height="72"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="cpos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="cdim" width="0" height="0"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:OffsetOrientation" key="coffsetorient" offset="84"/>
+          </connectors>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos" x="576" y="216"/>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="204" height="168"/>
+        </containedElements>
+        <containedElements xsi:type="org-fortiss-af3-safetycases:AwayGoal" xmi:id="57" id="57" name="Away Goal" comment="" textualInformation="{Claim}">
+          <connectors xsi:type="org-fortiss-af3-safetycases:EntryConnector" xmi:id="61" id="61" name="entryConnector" comment="">
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="108" height="72"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="cpos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="cdim" width="0" height="0"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:OffsetOrientation" key="coffsetorient" offset="36"/>
+          </connectors>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos" x="1032" y="420"/>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="156" height="108"/>
+        </containedElements>
+        <connections xsi:type="org-fortiss-af3-safetycases:SupportedBy" xmi:id="48" id="48" name="SupportedBy" comment="" source="41" target="42">
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Points" key="points"/>
+        </connections>
+        <connections xsi:type="org-fortiss-af3-safetycases:SupportedBy" xmi:id="50" id="50" name="SupportedBy" comment="" source="49" target="43">
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Points" key="points"/>
+        </connections>
+        <connections xsi:type="org-fortiss-af3-safetycases:SupportedBy" xmi:id="54" id="54" name="SupportedBy" comment="" source="53" target="44">
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Points" key="points"/>
+        </connections>
+        <connections xsi:type="org-fortiss-af3-safetycases:SupportedBy" xmi:id="55" id="55" name="SupportedBy" comment="" source="52" target="47">
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Points" key="points"/>
+        </connections>
+        <connections xsi:type="org-fortiss-af3-safetycases:SupportedBy" xmi:id="56" id="56" name="SupportedBy" comment="" source="51" target="45">
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Points" key="points"/>
+        </connections>
+        <connectors xsi:type="org-fortiss-af3-safetycases:EntryConnector" xmi:id="68" id="68" name="entryConnector" comment="" incoming="73">
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos"/>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="108" height="72"/>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="cpos"/>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="cdim" width="0" height="0"/>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:OffsetOrientation" key="coffsetorient" offset="60"/>
+        </connectors>
+        <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos" x="36" y="192"/>
+        <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="156" height="72"/>
+      </containedElements>
+      <containedElements xsi:type="org-fortiss-af3-safetycases:ArgumentModule" xmi:id="13" id="13" name="Trustworthy" comment="" gsnID="5">
+        <containedElements xsi:type="org-fortiss-af3-safetycases:Goal" xmi:id="36" id="36" name="G5 Trustworthy" comment="" textualInformation="The Self-Driving Enterprise is trustworthy" toBeInstantiated="false" toBeDeveloped="false">
+          <connectors xsi:type="org-fortiss-af3-safetycases:ExitConnector" xmi:id="128" id="128" name="exitConnector" comment="" outgoing="135">
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="108" height="72"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="cpos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="cdim" width="0" height="0"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:OffsetOrientation" key="coffsetorient" offset="144" orientation="SOUTH"/>
+          </connectors>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos" x="180" y="24"/>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="324" height="120"/>
+        </containedElements>
+        <containedElements xsi:type="org-fortiss-af3-safetycases:Strategy" xmi:id="123" id="123" name="S5.1" comment="" textualInformation="If the organizational environment is appropriate for system safety, stakeholders are engaged participatively, &#xD;&#xA;external communication about the self-driving enterprise is appropriate and verifiable then the claims made &#xD;&#xA;in G1-G4 are more likely to be accurate." toBeInstantiated="false" toBeDeveloped="false">
+          <connectors xsi:type="org-fortiss-af3-safetycases:ExitConnector" xmi:id="129" id="129" name="exitConnector" comment="" outgoing="136">
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="108" height="72"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="cpos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="cdim" width="0" height="0"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:OffsetOrientation" key="coffsetorient" offset="216" orientation="SOUTH"/>
+          </connectors>
+          <connectors xsi:type="org-fortiss-af3-safetycases:EntryConnector" xmi:id="134" id="134" name="entryConnector" comment="" incoming="135">
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="108" height="72"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="cpos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="cdim" width="0" height="0"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:OffsetOrientation" key="coffsetorient" offset="216"/>
+          </connectors>
+          <connectors xsi:type="org-fortiss-af3-safetycases:ExitConnector" xmi:id="137" id="137" name="exitConnector" comment="" outgoing="142">
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="108" height="72"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="cpos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="cdim" width="0" height="0"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:OffsetOrientation" key="coffsetorient" offset="216" orientation="SOUTH"/>
+          </connectors>
+          <connectors xsi:type="org-fortiss-af3-safetycases:ExitConnector" xmi:id="138" id="138" name="exitConnector" comment="" outgoing="141">
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="108" height="72"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="cpos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="cdim" width="0" height="0"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:OffsetOrientation" key="coffsetorient" offset="216" orientation="SOUTH"/>
+          </connectors>
+          <connectors xsi:type="org-fortiss-af3-safetycases:ExitConnector" xmi:id="139" id="139" name="exitConnector" comment="" outgoing="140">
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="108" height="72"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="cpos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="cdim" width="0" height="0"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:OffsetOrientation" key="coffsetorient" offset="216" orientation="SOUTH"/>
+          </connectors>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos" x="120" y="192"/>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="432" height="120"/>
+        </containedElements>
+        <containedElements xsi:type="org-fortiss-af3-safetycases:Goal" xmi:id="124" id="124" name="G5.1.1" comment="" textualInformation="The organizational environment is appropriate for safety-critical systems" toBeInstantiated="false">
+          <connectors xsi:type="org-fortiss-af3-safetycases:EntryConnector" xmi:id="130" id="130" name="entryConnector" comment="" incoming="136">
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="108" height="72"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="cpos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="cdim" width="0" height="0"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:OffsetOrientation" key="coffsetorient" offset="48"/>
+          </connectors>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos" x="36" y="384"/>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="204" height="132"/>
+        </containedElements>
+        <containedElements xsi:type="org-fortiss-af3-safetycases:Goal" xmi:id="125" id="125" name="G5.1.2" comment="" textualInformation="Stakeholders are engaged regularly throughout the lifecycle of the self-driving enterprise." toBeInstantiated="false">
+          <connectors xsi:type="org-fortiss-af3-safetycases:EntryConnector" xmi:id="131" id="131" name="entryConnector" comment="" incoming="142">
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="108" height="72"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="cpos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="cdim" width="0" height="0"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:OffsetOrientation" key="coffsetorient" offset="48"/>
+          </connectors>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos" x="240" y="384"/>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="228" height="132"/>
+        </containedElements>
+        <containedElements xsi:type="org-fortiss-af3-safetycases:Goal" xmi:id="126" id="126" name="G5.1.3" comment="" textualInformation="Appropriate, verifiable evidence of safety and performance is provided outside the self-driving enterprise." toBeInstantiated="false">
+          <connectors xsi:type="org-fortiss-af3-safetycases:EntryConnector" xmi:id="132" id="132" name="entryConnector" comment="" incoming="141">
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="108" height="72"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="cpos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="cdim" width="0" height="0"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:OffsetOrientation" key="coffsetorient" offset="48"/>
+          </connectors>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos" x="468" y="384"/>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="204" height="132"/>
+        </containedElements>
+        <containedElements xsi:type="org-fortiss-af3-safetycases:Goal" xmi:id="127" id="127" name="G5.1.4" comment="" textualInformation="The Self-Driving Enterprise is independently reviewed and audited" toBeInstantiated="false">
+          <connectors xsi:type="org-fortiss-af3-safetycases:EntryConnector" xmi:id="133" id="133" name="entryConnector" comment="" incoming="140">
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="108" height="72"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="cpos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="cdim" width="0" height="0"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:OffsetOrientation" key="coffsetorient" offset="48"/>
+          </connectors>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos" x="672" y="384"/>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="192" height="132"/>
+        </containedElements>
+        <connections xsi:type="org-fortiss-af3-safetycases:SupportedBy" xmi:id="135" id="135" name="SupportedBy" comment="" source="128" target="134">
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Points" key="points"/>
+        </connections>
+        <connections xsi:type="org-fortiss-af3-safetycases:SupportedBy" xmi:id="136" id="136" name="SupportedBy" comment="" source="129" target="130">
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Points" key="points"/>
+        </connections>
+        <connections xsi:type="org-fortiss-af3-safetycases:SupportedBy" xmi:id="140" id="140" name="SupportedBy" comment="" source="139" target="133">
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Points" key="points"/>
+        </connections>
+        <connections xsi:type="org-fortiss-af3-safetycases:SupportedBy" xmi:id="141" id="141" name="SupportedBy" comment="" source="138" target="132">
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Points" key="points"/>
+        </connections>
+        <connections xsi:type="org-fortiss-af3-safetycases:SupportedBy" xmi:id="142" id="142" name="SupportedBy" comment="" source="137" target="131">
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Points" key="points"/>
+        </connections>
+        <connectors xsi:type="org-fortiss-af3-safetycases:EntryConnector" xmi:id="69" id="69" name="entryConnector" comment="" incoming="77">
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos"/>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="108" height="72"/>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="cpos"/>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="cdim" width="0" height="0"/>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:OffsetOrientation" key="coffsetorient" offset="60"/>
+        </connectors>
+        <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos" x="660" y="192"/>
+        <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="156" height="72"/>
+      </containedElements>
+      <containedElements xsi:type="org-fortiss-af3-safetycases:ArgumentModule" xmi:id="14" id="14" name="Resilient" comment="" gsnID="4">
+        <containedElements xsi:type="org-fortiss-af3-safetycases:Goal" xmi:id="29" id="29" name="G4 Resilient" comment="" textualInformation="The Self-Driving Vehicle is acceptably safe &#xD;&#xA;in case of reasonably forseeable misues and unavoidable events" toBeInstantiated="false" toBeDeveloped="false">
+          <connectors xsi:type="org-fortiss-af3-safetycases:ExitConnector" xmi:id="112" id="112" name="exitConnector" comment="" outgoing="113">
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="108" height="72"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="cpos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="cdim" width="0" height="0"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:OffsetOrientation" key="coffsetorient" offset="204" orientation="SOUTH"/>
+          </connectors>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos" x="132" y="24"/>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="420" height="132"/>
+        </containedElements>
+        <containedElements xsi:type="org-fortiss-af3-safetycases:Strategy" xmi:id="107" id="107" name="S4.1" comment="" textualInformation="tbd." toBeInstantiated="false" toBeDeveloped="false">
+          <connectors xsi:type="org-fortiss-af3-safetycases:EntryConnector" xmi:id="111" id="111" name="entryConnector" comment="" incoming="113">
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="108" height="72"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="cpos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="cdim" width="0" height="0"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:OffsetOrientation" key="coffsetorient" offset="156"/>
+          </connectors>
+          <connectors xsi:type="org-fortiss-af3-safetycases:ExitConnector" xmi:id="115" id="115" name="exitConnector" comment="" outgoing="120">
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="108" height="72"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="cpos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="cdim" width="0" height="0"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:OffsetOrientation" key="coffsetorient" offset="168" orientation="SOUTH"/>
+          </connectors>
+          <connectors xsi:type="org-fortiss-af3-safetycases:ExitConnector" xmi:id="116" id="116" name="exitConnector" comment="" outgoing="121">
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="108" height="72"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="cpos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="cdim" width="0" height="0"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:OffsetOrientation" key="coffsetorient" offset="168" orientation="SOUTH"/>
+          </connectors>
+          <connectors xsi:type="org-fortiss-af3-safetycases:ExitConnector" xmi:id="117" id="117" name="exitConnector" comment="" outgoing="122">
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="108" height="72"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="cpos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="cdim" width="0" height="0"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:OffsetOrientation" key="coffsetorient" offset="168" orientation="SOUTH"/>
+          </connectors>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos" x="192" y="204"/>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="300" height="72"/>
+        </containedElements>
+        <containedElements xsi:type="org-fortiss-af3-safetycases:Goal" xmi:id="108" id="108" name="G4.1" comment="" textualInformation="Potential harm incurred during and after a vehicle collision is mitigated" toBeInstantiated="false">
+          <connectors xsi:type="org-fortiss-af3-safetycases:EntryConnector" xmi:id="114" id="114" name="entryConnector" comment="" incoming="120">
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="108" height="72"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="cpos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="cdim" width="0" height="0"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:OffsetOrientation" key="coffsetorient" offset="96"/>
+          </connectors>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos" x="48" y="312"/>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="216" height="120"/>
+        </containedElements>
+        <containedElements xsi:type="org-fortiss-af3-safetycases:Goal" xmi:id="109" id="109" name="G4.2" comment="" textualInformation="Potential harm from reasonably foreseeable misuse is mitigated" toBeInstantiated="false">
+          <connectors xsi:type="org-fortiss-af3-safetycases:EntryConnector" xmi:id="118" id="118" name="entryConnector" comment="" incoming="121">
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="108" height="72"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="cpos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="cdim" width="0" height="0"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:OffsetOrientation" key="coffsetorient" offset="60"/>
+          </connectors>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos" x="288" y="312"/>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="192" height="120"/>
+        </containedElements>
+        <containedElements xsi:type="org-fortiss-af3-safetycases:Goal" xmi:id="110" id="110" name="G4.3" comment="" textualInformation="Potential harm from cyber intrusion is appropriately mitigated" toBeInstantiated="false">
+          <connectors xsi:type="org-fortiss-af3-safetycases:EntryConnector" xmi:id="119" id="119" name="entryConnector" comment="" incoming="122">
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="108" height="72"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="cpos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="cdim" width="0" height="0"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:OffsetOrientation" key="coffsetorient" offset="24"/>
+          </connectors>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos" x="504" y="312"/>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="192" height="120"/>
+        </containedElements>
+        <connections xsi:type="org-fortiss-af3-safetycases:SupportedBy" xmi:id="113" id="113" name="SupportedBy" comment="" source="112" target="111">
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Points" key="points"/>
+        </connections>
+        <connections xsi:type="org-fortiss-af3-safetycases:SupportedBy" xmi:id="120" id="120" name="SupportedBy" comment="" source="115" target="114">
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Points" key="points"/>
+        </connections>
+        <connections xsi:type="org-fortiss-af3-safetycases:SupportedBy" xmi:id="121" id="121" name="SupportedBy" comment="" source="116" target="118">
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Points" key="points"/>
+        </connections>
+        <connections xsi:type="org-fortiss-af3-safetycases:SupportedBy" xmi:id="122" id="122" name="SupportedBy" comment="" source="117" target="119">
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Points" key="points"/>
+        </connections>
+        <connectors xsi:type="org-fortiss-af3-safetycases:EntryConnector" xmi:id="70" id="70" name="entryConnector" comment="" incoming="76">
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos"/>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="108" height="72"/>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="cpos"/>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="cdim" width="0" height="0"/>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:OffsetOrientation" key="coffsetorient" offset="60"/>
+        </connectors>
+        <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos" x="504" y="192"/>
+        <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="156" height="72"/>
+      </containedElements>
+      <containedElements xsi:type="org-fortiss-af3-safetycases:ArgumentModule" xmi:id="15" id="15" name="Continuously Improving" comment="">
+        <containedElements xsi:type="org-fortiss-af3-safetycases:Goal" xmi:id="28" id="28" name="G3 Continuously Improving" comment="" textualInformation="Any anomaly that could affect the safety of the Self-Driving Vehicle  &#xD;&#xA;is identified, evaluated, and resolved with appropriate corrective and preventive actions" toBeInstantiated="false" toBeDeveloped="false">
+          <connectors xsi:type="org-fortiss-af3-safetycases:ExitConnector" xmi:id="96" id="96" name="exitConnector" comment="" outgoing="100">
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="108" height="72"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="cpos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="cdim" width="0" height="0"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:OffsetOrientation" key="coffsetorient" offset="216" orientation="SOUTH"/>
+          </connectors>
+          <connectors xsi:type="org-fortiss-af3-safetycases:ExitConnector" xmi:id="97" id="97" name="exitConnector" comment="" outgoing="106">
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="108" height="72"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="cpos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="cdim" width="0" height="0"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:OffsetOrientation" key="coffsetorient" offset="216" orientation="SOUTH"/>
+          </connectors>
+          <connectors xsi:type="org-fortiss-af3-safetycases:ExitConnector" xmi:id="98" id="98" name="exitConnector" comment="" outgoing="99">
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="108" height="72"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="cpos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="cdim" width="0" height="0"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:OffsetOrientation" key="coffsetorient" offset="216" orientation="SOUTH"/>
+          </connectors>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos" x="228" y="48"/>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="540" height="96"/>
+        </containedElements>
+        <containedElements xsi:type="org-fortiss-af3-safetycases:Goal" xmi:id="90" id="90" name="G3.1" comment="" textualInformation="Safety performance indicators are measured, analyzed, and used to monitor safety" toBeInstantiated="false">
+          <connectors xsi:type="org-fortiss-af3-safetycases:EntryConnector" xmi:id="93" id="93" name="entryConnector" comment="" incoming="105">
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="108" height="72"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="cpos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="cdim" width="0" height="0"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:OffsetOrientation" key="coffsetorient" offset="108"/>
+          </connectors>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos" x="36" y="348"/>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="240" height="108"/>
+        </containedElements>
+        <containedElements xsi:type="org-fortiss-af3-safetycases:Strategy" xmi:id="91" id="91" name="S3.2" comment="" textualInformation="Utilize proactive safety risk identification and resolution processes in place throughout testing, &#xD;&#xA;development and production in order to minimize anomalies." toBeInstantiated="false">
+          <connectors xsi:type="org-fortiss-af3-safetycases:EntryConnector" xmi:id="94" id="94" name="entryConnector" comment="" incoming="99">
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="108" height="72"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="cpos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="cdim" width="0" height="0"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:OffsetOrientation" key="coffsetorient" offset="168"/>
+          </connectors>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos" x="288" y="216"/>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="348" height="96"/>
+        </containedElements>
+        <containedElements xsi:type="org-fortiss-af3-safetycases:Strategy" xmi:id="92" id="92" name="S3.3" comment="" textualInformation="Utilize reactive anomaly identification and resolution processes in place throughout testing, &#xD;&#xA;development, service, operations, and production in order to decrease recurrence of anomalies." toBeInstantiated="false">
+          <connectors xsi:type="org-fortiss-af3-safetycases:EntryConnector" xmi:id="95" id="95" name="entryConnector" comment="" incoming="100">
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="108" height="72"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="cpos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="cdim" width="0" height="0"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:OffsetOrientation" key="coffsetorient" offset="180"/>
+          </connectors>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos" x="648" y="216"/>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="360" height="96"/>
+        </containedElements>
+        <containedElements xsi:type="org-fortiss-af3-safetycases:Strategy" xmi:id="102" id="102" name="S3.1" comment="" textualInformation="tbd." toBeInstantiated="false" toBeDeveloped="false">
+          <connectors xsi:type="org-fortiss-af3-safetycases:EntryConnector" xmi:id="103" id="103" name="entryConnector" comment="" incoming="106">
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="108" height="72"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="cpos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="cdim" width="0" height="0"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:OffsetOrientation" key="coffsetorient" offset="84"/>
+          </connectors>
+          <connectors xsi:type="org-fortiss-af3-safetycases:ExitConnector" xmi:id="104" id="104" name="exitConnector" comment="" outgoing="105">
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="108" height="72"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="cpos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="cdim" width="0" height="0"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:OffsetOrientation" key="coffsetorient" offset="60" orientation="SOUTH"/>
+          </connectors>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos" x="96" y="216"/>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="168" height="96"/>
+        </containedElements>
+        <connections xsi:type="org-fortiss-af3-safetycases:SupportedBy" xmi:id="99" id="99" name="SupportedBy" comment="" source="98" target="94">
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Points" key="points"/>
+        </connections>
+        <connections xsi:type="org-fortiss-af3-safetycases:SupportedBy" xmi:id="100" id="100" name="SupportedBy" comment="" source="96" target="95">
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Points" key="points"/>
+        </connections>
+        <connections xsi:type="org-fortiss-af3-safetycases:SupportedBy" xmi:id="105" id="105" name="SupportedBy" comment="" source="104" target="93">
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Points" key="points"/>
+        </connections>
+        <connections xsi:type="org-fortiss-af3-safetycases:SupportedBy" xmi:id="106" id="106" name="SupportedBy" comment="" source="97" target="103">
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Points" key="points"/>
+        </connections>
+        <connectors xsi:type="org-fortiss-af3-safetycases:EntryConnector" xmi:id="71" id="71" name="entryConnector" comment="" incoming="75">
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos"/>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="108" height="72"/>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="cpos"/>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="cdim" width="0" height="0"/>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:OffsetOrientation" key="coffsetorient" offset="60"/>
+        </connectors>
+        <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos" x="348" y="192"/>
+        <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="156" height="72"/>
+      </containedElements>
+      <containedElements xsi:type="org-fortiss-af3-safetycases:ArgumentModule" xmi:id="16" id="16" name="Fail-Safe" comment="" gsnID="3">
+        <containedElements xsi:type="org-fortiss-af3-safetycases:Goal" xmi:id="24" id="24" name="G2 Fail-Safe" comment="" gsnID="3.1" textualInformation="The Self-Driving Vehicle is acceptably safe in presence of faults and failures" toBeInstantiated="false" toBeDeveloped="false">
+          <connectors xsi:type="org-fortiss-af3-safetycases:ExitConnector" xmi:id="81" id="81" name="exitConnector" comment="" outgoing="86">
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="108" height="72"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="cpos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="cdim" width="0" height="0"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:OffsetOrientation" key="coffsetorient" offset="84" orientation="SOUTH"/>
+          </connectors>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos" x="204" y="24"/>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="216" height="120"/>
+        </containedElements>
+        <containedElements xsi:type="org-fortiss-af3-safetycases:Strategy" xmi:id="78" id="78" name="S2.1" comment="" textualInformation="We mitigate hazards by identifying faults and failure modes &#xD;&#xA;and ensuring the system is able to detect them and take action &#xD;&#xA;to minimize safety risk when they occur and by engineering &#xD;&#xA;and design activities to ensure the overall failure rate &#xD;&#xA;of the system is acceptably low." toBeInstantiated="false" toBeDeveloped="false">
+          <connectors xsi:type="org-fortiss-af3-safetycases:ExitConnector" xmi:id="82" id="82" name="exitConnector" comment="" outgoing="87">
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="108" height="72"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="cpos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="cdim" width="0" height="0"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:OffsetOrientation" key="coffsetorient" offset="216" orientation="SOUTH"/>
+          </connectors>
+          <connectors xsi:type="org-fortiss-af3-safetycases:EntryConnector" xmi:id="85" id="85" name="entryConnector" comment="" incoming="86">
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="108" height="72"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="cpos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="cdim" width="0" height="0"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:OffsetOrientation" key="coffsetorient" offset="216"/>
+          </connectors>
+          <connectors xsi:type="org-fortiss-af3-safetycases:ExitConnector" xmi:id="88" id="88" name="exitConnector" comment="" outgoing="89">
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="108" height="72"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="cpos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="cdim" width="0" height="0"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:OffsetOrientation" key="coffsetorient" offset="216" orientation="SOUTH"/>
+          </connectors>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos" x="84" y="192"/>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="420" height="144"/>
+        </containedElements>
+        <containedElements xsi:type="org-fortiss-af3-safetycases:Goal" xmi:id="79" id="79" name="G2.1.1" comment="" textualInformation="The rate of failure of the system is reasonably low" toBeInstantiated="false">
+          <connectors xsi:type="org-fortiss-af3-safetycases:EntryConnector" xmi:id="83" id="83" name="entryConnector" comment="" incoming="87">
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="108" height="72"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="cpos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="cdim" width="0" height="0"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:OffsetOrientation" key="coffsetorient" offset="108"/>
+          </connectors>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos" x="60" y="384"/>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="228" height="84"/>
+        </containedElements>
+        <containedElements xsi:type="org-fortiss-af3-safetycases:Goal" xmi:id="80" id="80" name="G2.1.2" comment="" textualInformation="The effectiveness of fault mitigation is acceptably high" toBeInstantiated="false">
+          <connectors xsi:type="org-fortiss-af3-safetycases:EntryConnector" xmi:id="84" id="84" name="entryConnector" comment="" incoming="89">
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="108" height="72"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="cpos"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="cdim" width="0" height="0"/>
+            <layoutData xsi:type="org-fortiss-tooling-base-model-layout:OffsetOrientation" key="coffsetorient" offset="108"/>
+          </connectors>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos" x="312" y="384"/>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="228" height="96"/>
+        </containedElements>
+        <connections xsi:type="org-fortiss-af3-safetycases:SupportedBy" xmi:id="86" id="86" name="SupportedBy" comment="" source="81" target="85">
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Points" key="points"/>
+        </connections>
+        <connections xsi:type="org-fortiss-af3-safetycases:SupportedBy" xmi:id="87" id="87" name="SupportedBy" comment="" source="82" target="83">
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Points" key="points"/>
+        </connections>
+        <connections xsi:type="org-fortiss-af3-safetycases:SupportedBy" xmi:id="89" id="89" name="SupportedBy" comment="" source="88" target="84">
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Points" key="points"/>
+        </connections>
+        <connectors xsi:type="org-fortiss-af3-safetycases:EntryConnector" xmi:id="72" id="72" name="entryConnector" comment="" incoming="74">
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos"/>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="108" height="72"/>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="cpos"/>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="cdim" width="0" height="0"/>
+          <layoutData xsi:type="org-fortiss-tooling-base-model-layout:OffsetOrientation" key="coffsetorient" offset="72"/>
+        </connectors>
+        <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Point" key="pos" x="192" y="192"/>
+        <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Dimension" key="dim" width="156" height="72"/>
+      </containedElements>
+      <connections xsi:type="org-fortiss-af3-safetycases:SupportedBy" xmi:id="73" id="73" name="SupportedBy" comment="" source="63" target="68">
+        <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Points" key="points"/>
+      </connections>
+      <connections xsi:type="org-fortiss-af3-safetycases:SupportedBy" xmi:id="74" id="74" name="SupportedBy" comment="" source="64" target="72">
+        <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Points" key="points"/>
+      </connections>
+      <connections xsi:type="org-fortiss-af3-safetycases:SupportedBy" xmi:id="75" id="75" name="SupportedBy" comment="" source="65" target="71">
+        <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Points" key="points"/>
+      </connections>
+      <connections xsi:type="org-fortiss-af3-safetycases:SupportedBy" xmi:id="76" id="76" name="SupportedBy" comment="" source="66" target="70">
+        <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Points" key="points"/>
+      </connections>
+      <connections xsi:type="org-fortiss-af3-safetycases:SupportedBy" xmi:id="77" id="77" name="SupportedBy" comment="" source="67" target="69">
+        <layoutData xsi:type="org-fortiss-tooling-base-model-layout:Points" key="points"/>
+      </connections>
+    </containedElements>
+  </rootElements>
+</org-fortiss-af3-project:FileProject>
